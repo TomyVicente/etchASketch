@@ -1,22 +1,18 @@
 body{
-    padding: 0px;
-    margin: 0px;
-}
-
-.container{
+    background-color: #F50;
     display: flex;
-    flex-wrap: wrap;
-    min-height: 90vh;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
 }
 
-.grid{
-    border: 1px solid #000;
+.grid-container{
+    height: 600px;
+    width: 600px;
     background-color: #fff;
-    min-width: 20px;
-    min-height: 40px;
-    flex:auto;
 }
-
-.grid:hover{
-    background-color: #000;
+.title{
+    font-family: 'Courier New', Courier, monospace;
 }
